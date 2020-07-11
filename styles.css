@@ -1,0 +1,111 @@
+body {
+  color: #555;
+  font-family: Arial;
+  font-weight: 400;
+}
+
+input {
+  border-color: #ddd;
+  border-style: solid;
+  border-width: .1vh;
+  display: block;
+  padding: 17px 40px;
+  width: 500px;
+  border-radius: 100px;
+}
+.search-bar {
+  padding: 20px 0;
+}
+
+.logo-image img {
+  height:92px;
+  width:auto;
+  padding-top: 24vh;
+  display: block;
+}
+.center-item {
+  margin:0 auto;
+}
+
+button {
+  border: none;
+  padding: 13px;
+  border-radius: 6px;
+  margin:5px;
+  color: #555;
+}
+
+.buttons {
+  width:400px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom:0;
+  background-color:#eee;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+.header {
+  height: 60px;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+}
+
+.left-span {
+  margin-top: 10px;
+  font-size: 14px;
+  float: left;
+}
+.l-item {
+  margin-left: 25px;
+}
+.right-span {
+  float: right;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.r-item {
+  margin-right: 25px;
+}
+.img-right {
+  float: right;
+
+}
+img.abc {
+  height: 30px;
+  width: auto;
+  border-radius: 100px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.right-menu {
+  float:right;
+  margin-top: 22px;
+}
+.left-menu {
+  float: left;
+  margin-top: 22px;
+}
+.lm {
+  margin-left: 20px;
+
+}
+.rm {
+  margin-right: 20px;
+
+}
+.menu-items {
+  font-size: 12px;
+  color: black;
+}
